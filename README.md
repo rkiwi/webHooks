@@ -36,31 +36,33 @@ This simple GoLang application provides a local testing environment for services
 
    The server provides several options that can be configured through command-line flags:
 
-   ```text
    -answer (bool)
+   ```text
    Enable/disable answer from service (Status: OK, Data received) (default true)
    ```
    <img width="370" alt="image" src="https://github.com/rkiwi/webHooks/assets/68079296/fe5c0124-bc32-4f00-9a62-215ee84fac11">
    
-   ```text
+   
    -headers  (bool)
+   ```text
    Enable/disable technical information of request (default true)
    ```
    <img width="429" alt="image" src="https://github.com/rkiwi/webHooks/assets/68079296/034d9331-768b-452c-a2d6-3cf27f2384ec">
-   
-   
-   ```text
+
+
    -port int
+   ```text
    Set listening port of webhook catcher (default 8080)
    ```
 
-   ```text
+
    -pretty  (bool)
+   ```text
    Enable/disable pretty JSON formatting (default true)
    ```
    <img width="1390" alt="image" src="https://github.com/rkiwi/webHooks/assets/68079296/7c67dc8b-d899-4aa7-aff9-243750e6107b">
 
-2. #### Sending Requests:
+3. #### Sending Requests:
 
    Send your webhook requests to:
    ```text
@@ -71,7 +73,7 @@ This simple GoLang application provides a local testing environment for services
    curl -X POST http://127.0.0.1:8080 \                                                                                                                                                                                        ─╯
    -d '{"key": "value"}'
    ```
-3. #### Tracking Requests:
+4. #### Tracking Requests:
 
    Observe incoming webhook requests directly in the terminal where the server is running.
 
