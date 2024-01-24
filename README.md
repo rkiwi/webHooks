@@ -38,14 +38,15 @@ The server provides several options that can be configured through command-line 
 ```text
 -answer (bool)
 Enable/disable answer from service (Status: OK, Data received) (default true)
-<img width="370" alt="image" src="https://github.com/rkiwi/webHooks/assets/68079296/fe5c0124-bc32-4f00-9a62-215ee84fac11">
 ```
+<img width="370" alt="image" src="https://github.com/rkiwi/webHooks/assets/68079296/fe5c0124-bc32-4f00-9a62-215ee84fac11">
 
 ```text
 -headers  (bool)
 Enable/disable technical information of request (default true)
-<img width="429" alt="image" src="https://github.com/rkiwi/webHooks/assets/68079296/034d9331-768b-452c-a2d6-3cf27f2384ec">
 ```
+<img width="429" alt="image" src="https://github.com/rkiwi/webHooks/assets/68079296/034d9331-768b-452c-a2d6-3cf27f2384ec">
+
 
 ```text
 -port int
@@ -55,5 +56,5 @@ Set listening port of webhook catcher (default 8080)
 ```text
 -pretty  (bool)
 Enable/disable pretty JSON formatting (default true)
-<img width="1390" alt="image" src="https://github.com/rkiwi/webHooks/assets/68079296/7c67dc8b-d899-4aa7-aff9-243750e6107b">
 ```
+<img width="1390" alt="image" src="https://github.com/rkiwi/webHooks/assets/68079296/7c67dc8b-d899-4aa7-aff9-243750e6107b">
