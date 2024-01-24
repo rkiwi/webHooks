@@ -50,7 +50,7 @@ This simple GoLang application provides a local testing environment for services
    <img width="429" alt="image" src="https://github.com/rkiwi/webHooks/assets/68079296/034d9331-768b-452c-a2d6-3cf27f2384ec">
 
 
-     #### -port int
+     #### -port (int)
    ```text
    Set listening port of webhook catcher (default 8080)
    ```
